@@ -139,17 +139,36 @@ Edit CSS variables in `styles.css`:
 - **Structure**: Modify `index.html` to add/remove sections
 - **Styling**: Update `styles.css` for any design changes
 
-### Replace Placeholder Images
+### Images
 
-Replace the placeholder div in `index.html` (search for "placeholder-image") with actual images:
+The website now uses your own authentic images from Pelion! 
 
-```html
-<div class="about-image">
-    <img src="images/olive-grove.jpg" alt="Ancient olive grove">
-</div>
-```
+**Current images used:**
+- Hero: `pelion_olive_tress.jpeg`
+- About section: `panoramic-view-pelion-sea-olive-groves.jpg` and `olive-trees-field-peloponnese-greece-88716657.webp`
 
-Add images to a `images/` folder and update the path.
+To add or replace images:
+
+1. **Add your images** to the `images/` folder
+2. **Update the image URLs** in `index.html`:
+   - Hero section (line ~42)
+   - About section (lines ~88-89)
+   - Production timeline (lines ~101, ~107, ~113, ~119)
+
+3. **Example**: 
+   ```html
+   <img src="images/your-image.jpg" alt="Description">
+   ```
+
+### Production Video
+
+Your production video is now embedded from the local file `videos/58d60ae9-080b-48b0-8890-e0f5ee64cd5c.mp4`
+
+**To use your own video:**
+1. Replace the video file in the `videos/` folder
+2. Update the filename in `index.html` (line ~135)
+
+**Format:** The video section uses HTML5 video player with native browser controls
 
 ## Browser Support
 

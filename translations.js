@@ -34,6 +34,9 @@ const translations = {
         'contact.business.desc': 'As a family business, our production is limited and of the highest quality. Each batch is carefully curated.',
         'contact.social.title': 'Follow Us',
         'contact.social.note': 'For inquiries, please contact us through our social media channels',
+        'video.title': 'From the Olive Grove to the Bottle',
+        'video.subtitle': 'Experience the beauty of our ancient olive groves',
+        'video.note': 'Note: Replace this video with your own production video',
         'footer.text': '© 2024 Poulidis Premium Olive Oil. Family owned business from Pelion, Greece.'
     },
     el: {
@@ -41,7 +44,7 @@ const translations = {
         'nav.about': 'Σχετικά',
         'nav.production': 'Παραγωγή',
         'nav.contact': 'Επικοινωνία',
-        'hero.title': 'Προσαιτερο Έξτρα Παρθένο Ελαιόλαδο',
+        'hero.title': 'Διαλεγμένο Έξτρα Παρθένο Ελαιόλαδο',
         'hero.subtitle': 'Από Δέντρα 200-300 Ετών στο Πήλιο, Βόλος',
         'hero.contact': 'Επικοινωνήστε',
         'hero.learn': 'Μάθετε Περισσότερα',
@@ -50,13 +53,13 @@ const translations = {
         'features.organic.title': '100% Βιολογικό',
         'features.organic.desc': 'Πλήρως βιολογικό και φυσικό',
         'features.quality.title': 'Έξτρα Παρθένο',
-        'features.quality.desc': 'Υψηλότερη ποιότητα προσαιτερό λαδιού',
+        'features.quality.desc': 'Υψηλότερη ποιότητα διαλεγμένου λαδιού',
         'about.title': 'Οικογενειακή Παράδοση Εδώ και Γενιές',
         'about.desc1': 'Το ελαιόλαδό μας προέρχεται από οικογενειακή επιχείρηση που βρίσκεται στην όμορφη περιοχή του Πηλίου, Βόλος. Τα ελαιόδεντρα είναι 200-300 ετών, στέκοντας ως ζωντανοί μάρτυρες της πλούσιας γεωργικής κληρονομιάς της Ελλάδας.',
         'about.desc2': 'Αυτά τα αρχαία δέντρα παράγουν ελιές εξαιρετικής ποιότητας. Η παραγωγή μας είναι πλήρως βιολογική, χωρίς φυτοφάρμακα ή χημικά προϊόντα. Κάθε σταγόνα του έξτρα παρθένου ελαιόλαδου μας διατηρεί την αυθεντική γεύση και τα οφέλη για την υγεία αυτού του ελληνικού θησαυρού.',
-        'about.desc3': 'Λόγω της περιορισμένης ποσότητας από αυτά τα παραδοσιακά δέντρα, το ελαιόλαδο μας είναι ένα προσαιτερό προϊόν για όσους εκτιμούν την ποιότητα και την παράδοση.',
-        'production.title': 'Η Διαδικασία Παραγωγής Μας',
-        'production.step1.title': 'Σύλλεξη',
+        'about.desc3': 'Λόγω της περιορισμένης ποσότητας από αυτά τα παραδοσιακά δέντρα, το ελαιόλαδο μας είναι ένα μοναδικό προϊόν για όσους εκτιμούν την ποιότητα και την παράδοση.',
+        'production.title': 'Η Διαδικασία Παραγωγής μας',
+        'production.step1.title': 'Συγκομιδή',
         'production.step1.desc': 'Χειροκίνητη συλλογή ελιών από αρχαία δέντρα κατά τη βέλτιστη εποχή συγκομιδής',
         'production.step2.title': 'Ψυχρή Πίεση',
         'production.step2.desc': 'Παραδοσιακή μέθοδος ψυχρής πίεσης μέσα σε ώρες από τη συγκομιδή',
@@ -68,10 +71,13 @@ const translations = {
         'contact.shipping.title': 'Παγκόσμια Αποστολή',
         'contact.shipping.desc': 'Κάνουμε αποστολές παγκοσμίως με ελάχιστη ποσότητα 100kg και άνω. Ιδανικό για εστιατόρια, λιανοπωλήτες και επιχειρήσεις.',
         'contact.business.title': 'Περιορισμένη Ποσότητα',
-        'contact.business.desc': 'Ως οικογενειακή επιχείρηση, η παραγωγή μας είναι περιορισμένη και της υψηλότερης ποιότητας. Κάθε παρτίδα προσεκτικά επιμεληθεί.',
+        'contact.business.desc': 'Ως οικογενειακή επιχείρηση, η παραγωγή μας είναι περιορισμένη και της υψηλότερης ποιότητας. Κάθε παρτίδα έχει προσεκτικά επιμεληθεί.',
         'contact.social.title': 'Ακολουθήστε μας',
         'contact.social.note': 'Για ερωτήσεις, επικοινωνήστε μαζί μας μέσω των κοινωνικών μας δικτύων',
-        'footer.text': '© 2024 Poulidis Premium Olive Oil. Οικογενειακή επιχείρηση από το Πήλιο, Ελλάδα.'
+        'video.title': 'Άπο το δέντρο στη φιάλη',
+        'video.subtitle': 'Γευστείτε την ομορφιά των αρχαίων ελαιόδενδρών μας',
+        'video.note': 'Σημείωση: Αντικαταστήστε αυτό το βίντεο με το δικό σας βίντεο παραγωγής',
+        'footer.text': '© 2025 Poulidis Premium Olive Oil. Οικογενειακή επιχείρηση από το Πήλιο, Ελλάδα.'
     },
     de: {
         'nav.home': 'Startseite',
@@ -108,6 +114,9 @@ const translations = {
         'contact.business.desc': 'Als Familienunternehmen ist unsere Produktion begrenzt und von höchster Qualität. Jede Charge wird sorgfältig kuratiert.',
         'contact.social.title': 'Folgen Sie uns',
         'contact.social.note': 'Für Anfragen kontaktieren Sie uns bitte über unsere Social-Media-Kanäle',
+        'video.title': 'Sehen Sie unser Erbe',
+        'video.subtitle': 'Erleben Sie die Schönheit unserer antiken Olivenhaine',
+        'video.note': 'Hinweis: Ersetzen Sie dieses Video durch Ihr eigenes Produktionsvideo',
         'footer.text': '© 2024 Poulidis Premium Olive Oil. Familienunternehmen aus Pelion, Griechenland.'
     }
 };
